@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+    <title>Jungle sounds</title>
+</head>
+<body>
+    <h1>Jungle sounds key</h1>
+    <p>Press the key of the initial letter of the animal to listen to its sound</p>
+    <div class="container">
+        <div data-key="67" class="animal">
+            <span class="sound">cricket</span>
+        </div>
+        <div data-key="69" class="animal">
+            <span class="sound">elephant</span>
+        </div>
+        <div data-key="70" class="animal">
+            <span class="sound">frog</span>
+        </div>
+        <div data-key="71" class="animal">
+            <span class="sound">grass<br>hopper</span>
+        </div>
+        <div data-key="76" class="animal">
+            <span class="sound">leopard</span>
+        </div>
+        <div data-key="79" class="animal">
+            <span class="sound">owl</span>
+        </div>
+        <div data-key="82" class="animal">
+            <span class="sound">raven</span>
+        </div>
+        <div data-key="83" class="animal">
+            <span class="sound">squirrel</span>
+        </div>
+        <div data-key="87" class="animal">
+            <span class="sound">wolf</span>
+        </div>
+    </div>
+        <div class="pauseContainer" data-key="80">
+            <span class="pause">pause</span>
+        </div>
+
+        <audio src="./assets/sounds/crickets.mp3" data-key="67"></audio>
+        <audio src="./assets/sounds/elefant.mp3" data-key="69"></audio>
+        <audio src="./assets/sounds/frogs.mp3" data-key="70"></audio>
+        <audio src="./assets/sounds/grasshopper.mp3" data-key="71"></audio>
+        <audio src="./assets/sounds/leopard.mp3" data-key="76"></audio>
+        <audio src="./assets/sounds/owl.mp3" data-key="79"></audio>
+        <audio src="./assets/sounds/raven.mp3" data-key="82"></audio>
+        <audio src="./assets/sounds/squirrel.mp3" data-key="83"></audio>
+        <audio src="./assets/sounds/wolf.mp3" data-key="87"></audio>
+</body>
+<script src="./01-key-jungle.js"></script>
+</html>
